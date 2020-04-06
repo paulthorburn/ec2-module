@@ -25,6 +25,7 @@ resource "aws_instance" "instance" {
     Name = "Hello World"
     Description = var.description
     Region = "us-west-1"
+    UpdatedStuff = "Yes i did!"
 
     }
   }
